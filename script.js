@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fetch car data from db.json
     console.log('Fetching car data from db.json...');
-    fetch('http://localhost:3000/cars')
+    fetch('https://royal-rides-kenye.onrender.com/cars')
         .then(response => response.json())
         .then(cars => {
             // Transform car data using map to format price
