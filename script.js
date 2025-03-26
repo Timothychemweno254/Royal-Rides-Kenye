@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
             carId: parseInt(carId)
         };
     
-        fetch('http://localhost:3000/purchases', {
+        fetch('https://royal-rides-kenye.onrender.com/purchases', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(purchaseData)
