@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
 
-            //console.log('Purchase Saved:', data);
+            console.log('Purchase Saved:', data);
 
             alert("Purchase successful!");
             document.getElementById('purchase-form').reset();

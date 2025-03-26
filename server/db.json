@@ -5,6 +5,7 @@
       "brand": "Audi",
       "model": "Q7",
       "price": 5500000,
+      "color": "white",
       "imageExterior": "https://i.postimg.cc/KYP9zDrZ/audi-ext.png",
       "imageInterior": "https://i.postimg.cc/h4wMgtH4/audi-int.png"
     },
@@ -13,6 +14,7 @@
       "brand": "Lexus",
       "model": "LX 570",
       "price": 8200000,
+      "color": "silver",
       "imageExterior": "https://i.postimg.cc/6pBMb1kC/lexus-int-2.png",
       "imageInterior": "https://i.postimg.cc/WpQK88p7/lexus-ext.png"
     },
@@ -21,6 +23,7 @@
       "brand": "Porsche",
       "model": "Panamera",
       "price": 4000000,
+      "color": "white",
       "imageExterior": "https://i.postimg.cc/C1bDgwD5/porchie-ext.png",
       "imageInterior": "https://i.postimg.cc/FzsKBvV2/porch-int.png"
     },
@@ -29,6 +32,7 @@
       "brand": "Land cruiser",
       "model": " V8",
       "price": 4500000,
+      "color": "white",
       "imageExterior": "https://i.postimg.cc/y8S85v0Y/v8-ext.png",
       "imageInterior": "https://i.postimg.cc/y8S85v0Y/v8-ext.png"
     },
@@ -37,6 +41,7 @@
       "brand": "BMW",
       "model": "X6",
       "price": 6000000,
+      "color": "silver",
       "imageExterior": "https://i.postimg.cc/kGcT7Q82/bmw-ext.png",
       "imageInterior": "https://i.postimg.cc/GhXXNjdN/bmw-int.png"
     },
@@ -45,6 +50,7 @@
       "brand": "Mazda",
       "model": "CX5",
       "price": 2500000,
+      "color": "silver",
       "imageExterior": "https://i.postimg.cc/fRxhmFxX/CX-5-pro-ext.png",
       "imageInterior": "https://i.postimg.cc/265RpSgF/cx-5-pro-int.png"
     },
@@ -53,6 +59,7 @@
         "brand": "Rangerover",
         "model": "velar",
         "price": 4500000,
+        "color": "white",
         "imageExterior": "https://i.postimg.cc/gcCzh3fC/range-ext.png",
         "imageInterior": "https://i.postimg.cc/wBjgz2mm/range-int.png"
       },
@@ -61,6 +68,7 @@
       "brand": "Subaru",
       "model": "Forester",
       "price": 3500000,
+      "color": "silver",
       "imageExterior": "https://i.postimg.cc/28g0rSLF/subaru.png",
       "imageInterior": "https://i.postimg.cc/82QQcK/subaru-int.png"
     }
