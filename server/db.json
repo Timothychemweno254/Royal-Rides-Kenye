@@ -53,8 +53,8 @@
         "brand": "rangerover",
         "model": "velar",
         "price": 4500000,
-        "imageExterior": "https://source.unsplash.com/800x600/?porsche,panamera,car",
-        "imageInterior": "https://source.unsplash.com/800x600/?porsche,panamera,interior"
+        "imageExterior": "https://i.postimg.cc/gcCzh3fC/range-ext.png",
+        "imageInterior": "https://i.postimg.cc/wBjgz2mm/range-int.png"
       }
   ],
   "purchases": []
