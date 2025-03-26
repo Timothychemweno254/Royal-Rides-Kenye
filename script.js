@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.buy-button').forEach(button => {
             button.addEventListener('click', (event) => {
                 const carId = event.target.getAttribute('data-id');
-                //console.log('Buy button clicked for car ID:', carId);
+                console.log('Buy button clicked for car ID:', carId);
                 showPurchaseForm(carId);
             });
         });
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         carDetails.querySelector('.buy-button').addEventListener('click', () => {
-            //console.log('Buy button clicked inside car card:', car);
+            console.log('Buy button clicked inside car card:', car);
             showPurchaseForm(car);
         });
 
@@ -117,8 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const phone = document.getElementById('phone').value;
         const carId = document.getElementById('car-selection').value;
     
-        //console.log('Form Submitted!');  
-        //console.log('Buyer Details:', { name, idNo, phone, carId });
+        console.log('Form Submitted!');  
+        console.log('Buyer Details:', { name, idNo, phone, carId });
 
         const purchaseData = {
             name,
