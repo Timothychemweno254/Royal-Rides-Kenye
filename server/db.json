@@ -6,15 +6,15 @@
       "model": "Q7",
       "price": 3500000,
       "imageExterior": "https://i.postimg.cc/KYP9zDrZ/audi-ext.png",
-      "imageInterior": "https://i.postimg.cc/DySBsTdp/audi-inter.png"
+      "imageInterior": "https://i.postimg.cc/h4wMgtH4/audi-int.png"
     },
     {
       "id": 2,
       "brand": "Lexus",
       "model": "LX 570",
       "price": 8200000,
-      "imageExterior": "https://i.postimg.cc/509mtd23/lexus-ext.png",
-      "imageInterior": "https://i.postimg.cc/hjG9BL2Z/lexus-int.png"
+      "imageExterior": "https://i.postimg.cc/6pBMb1kC/lexus-int-2.png",
+      "imageInterior": "https://i.postimg.cc/WpQK88p7/lexus-ext.png"
     },
     {
       "id": 3,
@@ -42,12 +42,20 @@
     },
     {
       "id": 6,
-      "brand": "Land Rover",
-      "model": "Discovery 4 HSE",
-      "price": 6000000,
+      "brand": "Mazda",
+      "model": "CX5",
+      "price": 2500000,
       "imageExterior": "https://source.unsplash.com/800x600/?landrover,discovery,car",
       "imageInterior": "https://source.unsplash.com/800x600/?landrover,discovery,interior"
-    }
+    },
+    {
+        "id": 3,
+        "brand": "rangerover",
+        "model": "velar",
+        "price": 4500000,
+        "imageExterior": "https://source.unsplash.com/800x600/?porsche,panamera,car",
+        "imageInterior": "https://source.unsplash.com/800x600/?porsche,panamera,interior"
+      }
   ],
   "purchases": []
 }
