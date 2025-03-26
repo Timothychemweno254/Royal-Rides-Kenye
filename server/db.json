@@ -55,7 +55,15 @@
         "price": 4500000,
         "imageExterior": "https://i.postimg.cc/gcCzh3fC/range-ext.png",
         "imageInterior": "https://i.postimg.cc/wBjgz2mm/range-int.png"
-      }
+      },
+    {
+      "id": 3,
+      "brand": "Subaru",
+      "model": "Forester",
+      "price": 3500000,
+      "imageExterior": "https://i.postimg.cc/28g0rSLF/subaru.png",
+      "imageInterior": "https://i.postimg.cc/CL82QQcK/subaru-int.png"
+    }
   ],
   "purchases": []
 }
