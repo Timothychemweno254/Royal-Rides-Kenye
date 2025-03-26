@@ -32,19 +32,35 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error fetching cars:', error));
 
     // Function to display cars using forEach
-    function displayCars(carArray) {
-        carList.innerHTML = '';
-        carSelection.innerHTML = '<option value="">Select a car</option>';
+    // Function to display cars using forEach
+function displayCars(carArray) {
+    carList.innerHTML = '';
+    carSelection.innerHTML = '<option value="">Select a car</option>';
 
-        carArray.forEach(car => {
-            const carCard = createCarCard(car);
-            carList.appendChild(carCard);
+    carArray.forEach(car => {
+        // Create car card
+        const carCard = document.createElement('div');
+        carCard.classList.add('car-card');
 
-            const option = document.createElement('option');
-            option.value = car.id;
-            option.textContent = `${car.brand} ${car.model} - ${car.formattedPrice}`;
-            carSelection.appendChild(option);
-        });
+        // Add images (both exterior & interior)
+        carCard.innerHTML = `
+            <h3>${car.brand} ${car.model}</h3>
+            <div class="car-images">
+                <img src="${car.imageExterior}" alt="${car.brand} ${car.model} Exterior">
+                <img src="${car.imageInterior}" alt="${car.brand} ${car.model} Interior">
+            </div>
+            <p>Price: ${car.formattedPrice}</p>
+        `;
+
+        carList.appendChild(carCard);
+
+        // Add option to dropdown
+        const option = document.createElement('option');
+        option.value = car.id;
+        option.textContent = `${car.brand} ${car.model} - ${car.formattedPrice}`;
+        carSelection.appendChild(option);
+    });
+
 
 
 
