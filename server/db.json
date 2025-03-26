@@ -1,0 +1,54 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "brand": "Audi",
+        "model": "Q7",
+        "price": 3500000,
+        "imageExterior": "https://m.media-amazon.com/images/I/71pX0yxA8LL._AC_UF894,1000_QL80_.jpg",
+        "imageInterior": "https://m.media-amazon.com/images/I/71sLYr5eB4L._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "id": 2,
+        "brand": "Lexus",
+        "model": "LX 570",
+        "price": 8200000,
+        "imageExterior": "https://m.media-amazon.com/images/I/71UMZWl1ZsL._AC_UF894,1000_QL80_.jpg",
+        "imageInterior": "https://m.media-amazon.com/images/I/71A5ZxM0sXL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "id": 3,
+        "brand": "Porsche",
+        "model": "Panamera",
+        "price": 4000000,
+        "imageExterior": "https://m.media-amazon.com/images/I/81kmSoPchcL._AC_UF894,1000_QL80_.jpg",
+        "imageInterior": "https://m.media-amazon.com/images/I/71WYNy-N8TL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "id": 4,
+        "brand": "Toyota",
+        "model": "Land Cruiser V8",
+        "price": 4500000,
+        "imageExterior": "https://m.media-amazon.com/images/I/71z4-GKJxTL._AC_UF894,1000_QL80_.jpg",
+        "imageInterior": "https://m.media-amazon.com/images/I/71bLbL7czAL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "id": 5,
+        "brand": "BMW",
+        "model": "X6",
+        "price": 6000000,
+        "imageExterior": "https://m.media-amazon.com/images/I/71fkgIBAP+L._AC_UF894,1000_QL80_.jpg",
+        "imageInterior": "https://m.media-amazon.com/images/I/71mZyOWFHAL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "id": 6,
+        "brand": "Land Rover",
+        "model": "Discovery 4 HSE",
+        "price": 6000000,
+        "imageExterior": "https://m.media-amazon.com/images/I/81TuDlflAIL._AC_UF894,1000_QL80_.jpg",
+        "imageInterior": "https://m.media-amazon.com/images/I/71Bd7FSwBIL._AC_UF894,1000_QL80_.jpg"
+      }
+    ],
+    "purchases": []
+  }
+  
