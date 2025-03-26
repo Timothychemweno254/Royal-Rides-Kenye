@@ -12,22 +12,32 @@
     <header>
         <img src="https://cdn.pixabay.com/photo/2015/07/07/11/32/auto-834270_960_720.jpg" alt="Car Logo" width="300">
         <h1>Royal Rides Kenya</h1>
+        </header>
+        <input type="text" id="search" placeholder="Search cars...">
     </header>
+       
+    
+</div>
+
 
     <main>
         <div id="car-list"></div>
     </main>
     
+    <div id="purchase-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Purchase a Car</h2>
+            <form id="purchase-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="text" id="id-no" placeholder="ID Number" required>
+                <input type="text" id="phone" placeholder="Phone Number" required>
+                <select id="car-selection" required></select>
+                <button type="submit">Buy</button>
+            </form>
+        </div>
+    </div>
     
-    <h2>Purchase a Car</h2>
-    <form id="purchase-form">
-        <input type="text" id="name" placeholder="Your Name" required>
-        <input type="text" id="id-no" placeholder="ID Number" required>
-        <input type="text" id="phone" placeholder="Phone Number" required>
-        <select id="car-selection" required></select>
-        <button type="submit">Buy</button>
-    </form>
-
     <footer>
         <p>Connect with us:</p>
         <div class="social-icons">
