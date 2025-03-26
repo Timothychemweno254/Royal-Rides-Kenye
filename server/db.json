@@ -4,7 +4,7 @@
       "id": 1,
       "brand": "Audi",
       "model": "Q7",
-      "price": 3500000,
+      "price": 5500000,
       "imageExterior": "https://i.postimg.cc/KYP9zDrZ/audi-ext.png",
       "imageInterior": "https://i.postimg.cc/h4wMgtH4/audi-int.png"
     },
@@ -26,8 +26,8 @@
     },
     {
       "id": 4,
-      "brand": "Toyota",
-      "model": "Land Cruiser V8",
+      "brand": "Land cruiser",
+      "model": " V8",
       "price": 4500000,
       "imageExterior": "https://i.postimg.cc/y8S85v0Y/v8-ext.png",
       "imageInterior": "https://i.postimg.cc/y8S85v0Y/v8-ext.png"
@@ -50,7 +50,7 @@
     },
     {
         "id": 3,
-        "brand": "rangerover",
+        "brand": "Rangerover",
         "model": "velar",
         "price": 4500000,
         "imageExterior": "https://i.postimg.cc/gcCzh3fC/range-ext.png",
@@ -62,7 +62,7 @@
       "model": "Forester",
       "price": 3500000,
       "imageExterior": "https://i.postimg.cc/28g0rSLF/subaru.png",
-      "imageInterior": "https://i.postimg.cc/CL82QQcK/subaru-int.png"
+      "imageInterior": "https://i.postimg.cc/82QQcK/subaru-int.png"
     }
   ],
   "purchases": []
