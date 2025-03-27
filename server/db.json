@@ -34,7 +34,7 @@
       "price": 4500000,
       "color": "white",
       "imageExterior": "https://i.postimg.cc/y8S85v0Y/v8-ext.png",
-      "imageInterior": "https://i.postimg.cc/y8S85v0Y/v8-ext.png"
+      "imageInterior": "https://i.postimg.cc/mggYt1Cx/v8-int.png"
     },
     {
       "id": 5,
@@ -70,7 +70,7 @@
       "price": 3500000,
       "color": "silver",
       "imageExterior": "https://i.postimg.cc/28g0rSLF/subaru.png",
-      "imageInterior": "https://i.postimg.cc/82QQcK/subaru-int.png"
+      "imageInterior": "https://i.postimg.cc/B6rpFZsT/subaru-int.png"
     }
   ],
   "purchases": []

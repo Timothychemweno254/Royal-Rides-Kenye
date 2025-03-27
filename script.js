@@ -59,27 +59,45 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Function to create a car card
-    function createCarCard(car) {
-        const carCard = document.createElement('div');
-        carCard.classList.add('car-card');
+  // Function to create a car card
+   function createCarCard(car) {
+    const carCard = document.createElement('div');
+    carCard.classList.add('car-card');
 
-        const carImage = document.createElement('img');
-        carImage.src = car.imageExterior;
-        carImage.alt = `${car.brand} ${car.model}`;
-        carImage.classList.add('car-image');
+    // Create exterior image
+    const carImage = document.createElement('img');
+    carImage.src = car.imageExterior;
+    carImage.alt = `${car.brand} ${car.model}`;
+    carImage.classList.add('car-image');
 
-        const carDetails = document.createElement('div');
-        carDetails.classList.add('car-details');
-        carDetails.innerHTML = `
-            <h3>${car.brand} ${car.model}</h3>
-            <p>Price: ${car.formattedPrice}</p>
-            <button class="buy-button" data-id="${car.id}">Buy</button>
-        `;
+    // Create interior image (smaller)
+    const interiorImage = document.createElement('img');
+    interiorImage.src = car.imageInterior;
+    interiorImage.alt = `Interior of ${car.brand} ${car.model}`;
+    interiorImage.classList.add('interior-image');
 
-        carImage.addEventListener('click', () => {
-            showCarDetails(car);
-        });
+    // Create car details section
+    const carDetails = document.createElement('div');
+    carDetails.classList.add('car-details');
+    carDetails.innerHTML = `
+        <h3>${car.brand} ${car.model}</h3>
+        <p>Price: ${car.formattedPrice}</p>
+        <button class="buy-button" data-id="${car.id}">Buy</button>
+    `;
+
+    // Add event listener to show details when clicking exterior image
+    carImage.addEventListener('click', () => {
+        showCarDetails(car);
+    });
+
+    // Append images and details to the car card
+    carCard.appendChild(carImage);
+    carCard.appendChild(interiorImage);
+    carCard.appendChild(carDetails);
+
+    return carCard;
+
+
 
         // Mouseover event to show tooltip
         carImage.addEventListener('mouseover', () => {
