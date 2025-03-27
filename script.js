@@ -157,23 +157,21 @@ document.addEventListener('DOMContentLoaded', () => {
     
             // Show a success message
             const messageDiv = document.getElementById('purchase-message');
-            messageDiv.textContent = "Purchase successful! Thank you for your order.";
-            messageDiv.style.color = "green";
-            messageDiv.style.fontWeight = "bold";
-            messageDiv.style.marginTop = "10px";
+            messageDiv.textContent = "✅ Purchase successful! Thank you for your order.";
+            messageDiv.className = "purchase-success"; // Apply CSS class
     
             document.getElementById('purchase-form').reset();
         })
         .catch(error => {
             console.error('Error saving purchase:', error);
             
-            // Show an error message if the purchase fails
+            // Show an error message
             const messageDiv = document.getElementById('purchase-message');
-            messageDiv.textContent = "Error processing purchase. Please try again.";
-            messageDiv.style.color = "red";
+            messageDiv.textContent = "❌ Error processing purchase. Please try again.";
+            messageDiv.className = "purchase-error"; // Apply CSS class
         });
     });
-
+    
 
 
 });
