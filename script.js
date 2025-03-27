@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
         console.log('Form Submitted!');  
         console.log('Buyer Details:', { name, idNo, phone, carId });
-
+    
         const purchaseData = {
             name,
             idNo,
@@ -152,15 +152,28 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(response => response.json())
         .then(data => {
-
+            
             console.log('Purchase Saved:', data);
-
-            alert("Purchase successful!");
+    
+            // Show a success message
+            const messageDiv = document.getElementById('purchase-message');
+            messageDiv.textContent = "Purchase successful! Thank you for your order.";
+            messageDiv.style.color = "green";
+            messageDiv.style.fontWeight = "bold";
+            messageDiv.style.marginTop = "10px";
+    
             document.getElementById('purchase-form').reset();
         })
-        .catch(error => console.error('Error saving purchase:', error));
+        .catch(error => {
+            console.error('Error saving purchase:', error);
+            
+            // Show an error message if the purchase fails
+            const messageDiv = document.getElementById('purchase-message');
+            messageDiv.textContent = "Error processing purchase. Please try again.";
+            messageDiv.style.color = "red";
+        });
     });
-    
+
 
 
 });
